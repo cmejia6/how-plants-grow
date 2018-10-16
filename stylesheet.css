@@ -1,0 +1,44 @@
+h1{
+	border: 25px solid red;
+	text-align: center;
+}
+form{
+	background-color: rgb(255,255,200,0.1);
+}
+body{
+	color:white;
+	background-image: url(https://www.nasa.gov/sites/default/files/images/649694main_pia15417-43_full.jpg);
+	background-size: cover;
+	background-color: black;
+
+}
+
+footer{
+	clear:both;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;	
+}
+
+img {
+	width: 150px;
+	height: 150px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(10.1);
+	transition-duration: 16s;
+}
+/*img{
+	 display: flex;
+	 flex-wrap: wrap;
+	 justify-content: center;
+}*/
+
+#div2{
+	text-align: center;
+}
